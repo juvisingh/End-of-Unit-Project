@@ -1,0 +1,18 @@
+.navbar{
+    display:flex;
+    background-color: #92becf;
+    padding:10px;
+    justify-content: space-evenly;
+}
+.navbar1{
+    background-color: #92becf;
+}
+.fnfont {
+    font-family: myFont;
+    color: #cb703a;
+    font-size: x-large;
+}
+@font-face {
+    font-family: myFont;
+    src: url(KellySlab-Regular.ttf);
+}

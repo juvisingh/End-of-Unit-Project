@@ -3,6 +3,10 @@
     background-color: #92becf;
     padding:10px;
     justify-content: space-evenly;
+    font-family: myFont;
+    color: #cb703a;
+    font-size: x-large;
+    align-items: center;
 }
 .navbar1{
     background-color: #92becf;
@@ -10,7 +14,11 @@
 .fnfont {
     font-family: myFont;
     color: #cb703a;
-    font-size: x-large;
+    font-size: 40px;
+}
+.searchbar{
+    align-content: center;
+    font-size: 100px;
 }
 @font-face {
     font-family: myFont;

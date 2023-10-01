@@ -17,9 +17,67 @@
     font-size: 40px;
 }
 .searchbar{
-    align-content: center;
+    display:flex;
+    justify-content: center;
     font-size: 100px;
 }
+.logo {
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: second/third;
+} 
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #92becf;
+}
+.attentionGrabbar {
+    grid-column: first/second;
+    border-style: solid;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.centralPart {
+    display: grid;
+    grid-template-columns: [first] 1fr [second] 1fr [third] 1fr [end]; 
+}
+.Backstory {
+    border-style: solid;
+    justify-content: center;
+    padding: 7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: [uno] 1fr [dos] 1fr [tres] 1fr [end];
+}
+div.contact > img {
+    grid-column: dos/tres;
+}
+div.contact > h2 {
+    grid-column: dos/tres;
+}
+.order {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    grid-template-columns: [four] 1fr [five] 1fr [six] 1fr [end];
+}
+div.order > h1, h2, select, label, input, textarea, h4{
+    grid-column: five/six;
+}
+.orderForm {
+    display: flex;
+    justify-content: center;
+}
+
 @font-face {
     font-family: myFont;
     src: url(KellySlab-Regular.ttf);

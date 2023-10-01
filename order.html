@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Juvraj Singh and Vedant Singh">
+    <meta name="description" content="Order form for FnF">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:image" content="Image of Logo, FnF with a plate of fried chicken">
+    <meta property="og:title" content="Fried Chicken and Fries">
+    <meta property="og:description" content="A plate of fried chicken with the full name above it">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FnF Order</title>
+    <link rel = "stylesheet" href="EndOfUnitProject.css">
+    <link rel="shortcut icon" href="./fnf_auto_x2.jpg" type="image">
+</head>
+<body>
+    <div class="navbar1">
+        <div class="navbar">
+            <span>Menu</span>
+            <span>Gallery</span>  
+            <span class="fnfont"><strong>FnF</strong></span>
+            <span>Order</span>
+            <span><a href=contactUs.html>Contact Us</a></span>
+        </div>
+        <div class = "searchbar">
+            <input type="text" placeholder="Search..">
+        </div>
+    </div>
+    <h1 class="orderForm">Order Form</h1>
+    <form class="order" action="./EndOfUnitProject.html">
+        <h2><label for="item">What would you like to order?</label></h2>
+            <select name="item" id="item">
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+            </select>
+        <h2><label for="quantity">How many would you like to order?</label></h2>
+            <input type="radio" name="quantity" id="1">
+            <label for="1">1</label>
+            <input type="radio" name="quantity" id="2">
+            <label for="2">2</label>
+            <input type="radio" name="quantity" id="3">
+            <label for="3">3</label>
+            <input type="radio" name="quantity" id="other">
+           <label for="quantityother"><input type="text"></label>
+        <h2><label for="sauces">Select what sauces you would like on the side</label></h2>
+            <input type="checkbox" name="sauces" id="ranch">
+            <label for="ranch">Ranch</label>
+            <input type="checkbox" name="sauces" id="buffalo">
+            <label for="buffalo">Buffalo Sauce</label>
+            <input type="checkbox" name="sauces" id="hot">
+            <label for="hot">Hot Sauce</label>
+            <input type="checkbox" name="sauces" id="BBQ">
+            <label for="BBQ">Barbecue Sauce</label>
+            <input type="checkbox" name="sauces" id="Ketchup">
+            <label for="Ketchup">Ketchup</label>
+        <h2><label for="method">Will you be delivering or picking up your food?</label></h2>
+            <input type="radio" name="method" id="pickup">
+            <label for="pickup">Pickup</label>
+            <input type="radio" name="method" id="delivery">
+            <label for="delivery">Delivery</label>
+        <h4 style="font-weight: normal;"><label for="ifDelivery">If delivery, input the address: </label></h4>
+            <input type="text" name="ifDelivery">
+        <h2><label for="info">Contact Information</label></h2>
+            <input type="text" name="info">
+            <label for="name">First and Last Name</label>
+            <input type="text" name="info">
+            <label for="number">Phone Number</label>
+            <input type="text" name="info">
+            <label for="email">Email</label>
+        <input type="submit" style="height: 50px; width: 200px; margin: 20px;">
+    </form>
+    <footer class="footer">
+        <span><p>All rights reserved to &copy;FnF 2023</p></span>
+        <span><a href=contactUs.html>Contact Us</a></span>
+   </footer>
+</body>
+</html>

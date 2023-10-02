@@ -17,10 +17,10 @@
 <body>
     <div class="navbar1">
         <div class="navbar">
-            <span>Menu</span>
+            <span><a href="./menu.html">Menu</a></span>
             <span>Gallery</span>  
-            <span class="fnfont"><strong>FnF</strong></span>
-            <span>Order</span>
+            <span class="fnfont"><strong><a href="./EndOfUnitProject.html">FnF</a></strong></span>
+            <span><a href="./order.html">Order</a></span>
             <span><a href=contactUs.html>Contact Us</a></span>
         </div>
         <div class = "searchbar">
@@ -28,6 +28,7 @@
         </div>
     </div>
     <h1 class="orderForm">Order Form</h1>
+    <center>
     <form class="order" action="./EndOfUnitProject.html">
         <h2><label for="item">What would you like to order?</label></h2>
             <select name="item" id="item">
@@ -44,7 +45,7 @@
             <input type="radio" name="quantity" id="3">
             <label for="3">3</label>
             <input type="radio" name="quantity" id="other">
-           <label for="quantityother"><input type="text"></label>
+            <label for="other"><input type="text"></label>
         <h2><label for="sauces">Select what sauces you would like on the side</label></h2>
             <input type="checkbox" name="sauces" id="ranch">
             <label for="ranch">Ranch</label>
@@ -63,15 +64,23 @@
             <label for="delivery">Delivery</label>
         <h4 style="font-weight: normal;"><label for="ifDelivery">If delivery, input the address: </label></h4>
             <input type="text" name="ifDelivery">
+        <h2><label for="comments">Comments</label></h2>
+            <textarea id="comments" name="comments" cols="50"></textarea>
         <h2><label for="info">Contact Information</label></h2>
-            <input type="text" name="info">
             <label for="name">First and Last Name</label>
             <input type="text" name="info">
-            <label for="number">Phone Number</label>
+            <br>
+            <br>
+            <label for="number">Phone Number&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
             <input type="text" name="info">
-            <label for="email">Email</label>
+            <br>
+            <br>
+            <label for="email">Email&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+            <input type="text" name="info">
+        <br>
         <input type="submit" style="height: 50px; width: 200px; margin: 20px;">
     </form>
+    </center>
     <footer class="footer">
         <span><p>All rights reserved to &copy;FnF 2023</p></span>
         <span><a href=contactUs.html>Contact Us</a></span>

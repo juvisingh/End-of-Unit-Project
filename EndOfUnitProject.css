@@ -65,17 +65,50 @@ div.contact > h2 {
     grid-column: dos/tres;
 }
 .order {
-    display: grid;
-    justify-content: center;
-    justify-items: center;
-    grid-template-columns: [four] 1fr [five] 1fr [six] 1fr [end];
-}
-div.order > h1, h2, select, label, input, textarea, h4{
-    grid-column: five/six;
+    margin: auto;
 }
 .orderForm {
     display: flex;
     justify-content: center;
+}
+.container {
+    display:grid;
+    grid-template-columns: [a] 1fr [b] 1fr [c] 1fr [end];
+    grid-template-rows: [f] 1fr [g] 1fr [end];
+    gap: 10px;
+    padding:10px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+#h1B {
+    display: flex;
+    font-family: myFont;
+    color: #cb703a;
+    justify-content: center;
+}
+.item-1 {
+    grid-column: a / b;
+    grid-row: f / g;
+}
+.item-2 {
+    grid-column: b / c;
+    grid-row: f / g;
+}
+.item-3 {
+    grid-column: c / end;
+    grid-row: f / g;
+}
+.item-4 {
+    grid-column: a / b;
+    grid-row: g / end;
+}
+.item-5 {
+    grid-column: b / c;
+    grid-row: g / end;
+}
+.item-6 {
+    grid-column: c / end;
+    grid-row: g / end;
 }
 
 @font-face {

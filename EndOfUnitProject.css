@@ -4,6 +4,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
 }
+a {
+    color: #cb703a;
+}
 .navbar{
     display:flex;
     background-color: #92becf;
@@ -85,6 +88,7 @@ div.contact > h2 {
     padding:10px;
     margin-top: 80px;
     margin-bottom: 80px;
+    margin-left: 30px;
 }
 #h1B {
     display: flex;
@@ -95,26 +99,32 @@ div.contact > h2 {
 .item-1 {
     grid-column: a / b;
     grid-row: f / g;
+    margin-left: 150px;
 }
 .item-2 {
     grid-column: b / end;
     grid-row: f / g;
+    margin-left: 150px;
 }
 .item-3 {
     grid-column: a / b;
     grid-row: g / h;
+    margin-left: 150px;
 }
 .item-4 {
     grid-column: b / end;
     grid-row: g / h;
+    margin-left: 150px;
 }
 .item-5 {
     grid-column: a / b;
     grid-row: h / end;
+    margin-left: 150px;
 }
 .item-6 {
     grid-column: b / end;
     grid-row: h / end;
+    margin-left: 150px;
 }
 div.container > div > img {
     font-family: myFont2;
@@ -134,6 +144,12 @@ div.container > div > img {
     justify-content: space-evenly;
 }
 
+@media (max-width: 479px) {
+    img {
+        width: 100%;
+    }
+}
+    
 
 .imgss img{
     margin-top: 10px;
@@ -148,4 +164,5 @@ div.container > div > img {
     height: auto;
     width: auto;
     max-height: 479px;
+    margin-bottom: 20px;
 }

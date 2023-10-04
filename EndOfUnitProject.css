@@ -82,13 +82,13 @@ div.contact > h2 {
 }
 .container {
     display:grid;
-    grid-template-columns: [a] 1fr [b] 1fr [end];
-    grid-template-rows: [f] 1fr [g] 1fr [h] 1fr [end];
-    gap: 10px;
+    grid-template-columns: [a] 50rem [b] 30rem [end];
+    grid-template-rows: [f] 50rem [g] 50rem [h] 50rem [end];
+    gap: 5px;
     padding:10px;
     margin-top: 80px;
-    margin-bottom: 80px;
-    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-left: 40px;
 }
 #h1B {
     display: flex;
@@ -99,32 +99,26 @@ div.contact > h2 {
 .item-1 {
     grid-column: a / b;
     grid-row: f / g;
-    margin-left: 150px;
 }
 .item-2 {
     grid-column: b / end;
     grid-row: f / g;
-    margin-left: 150px;
 }
 .item-3 {
     grid-column: a / b;
     grid-row: g / h;
-    margin-left: 150px;
 }
 .item-4 {
     grid-column: b / end;
     grid-row: g / h;
-    margin-left: 150px;
 }
 .item-5 {
     grid-column: a / b;
     grid-row: h / end;
-    margin-left: 150px;
 }
 .item-6 {
     grid-column: b / end;
     grid-row: h / end;
-    margin-left: 150px;
 }
 div.container > div > img {
     font-family: myFont2;
